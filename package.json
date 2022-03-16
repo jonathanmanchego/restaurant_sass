@@ -6,9 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanmanchego/restaurant_sass_back.git"
+  },
+  "author": "Jonathan Manchego Sosa, Carolina Carlotto Vilca",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanmanchego/restaurant_sass_back/issues"
+  },
+  "homepage": "https://github.com/jonathanmanchego/restaurant_sass_back#readme",
   "dependencies": {
     "body-parser": "^1.19.2",
     "express": "^4.17.3",
