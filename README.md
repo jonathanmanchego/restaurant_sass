@@ -13,3 +13,9 @@
 - updatedAt
 - name: string
 - description: string
+
+> Esto tambien creara su migracion
+
+`npx sequelize-cli db:migrate`
+
+### Esto migrara aquellos cambios que no se hayan migrado aun de esta manera se mantedra el diseño de base de datos

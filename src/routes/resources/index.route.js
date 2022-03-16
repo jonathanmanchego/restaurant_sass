@@ -1,7 +1,6 @@
 const statusTable = require("./status-table.route");
+const router = require("express").Router();
 
-const indexRouter = (app) => {
-  app.use("/status-table", statusTable);
-};
+router.use("/status-table", statusTable);
 
-module.exports = indexRouter;
+module.exports = router;

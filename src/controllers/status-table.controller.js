@@ -6,6 +6,10 @@ module.exports = {
     try {
       data = await StatusTable.findAll();
     } catch (e) {
+      res.json({
+        error: true,
+        data: e,
+      });
       console.error(e);
     }
     res.json({
